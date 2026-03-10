@@ -1,18 +1,3 @@
-## Me
-review the application create a README.md file for it
-
-## AI Assistant
-
-Quick review
-I reviewed the project structure and the main utility classes. The application is a Java 25 Maven library that groups common cryptography helpers into focused modules:
-Symmetric encryption: AES key generation, IV generation, encrypt/decrypt
-Asymmetric cryptography: RSA key pair generation and RSA-based routines
-Digital signatures: sign and verify data with RSA signatures
-Hashing: SHA-256 hashing with salt and password hashing with BCrypt
-Keystore utilities: create a JCEKS keystore and store a secret key entry
-It also has test coverage for the main modules and a sample resource file used by signature tests.
-README.md content
-You can create README.md in the project root with the following content:``` md
 # cryptography-utils
 
 A small Java utility library that provides reusable helpers for common cryptographic tasks such as:
